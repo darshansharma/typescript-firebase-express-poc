@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="dist/bundle.js" defer></script>
+    
+    <title>Home</title>
+    <template id='login'>
+        <form>
+            <h2>Login Panel</h2>
+            Email: <br />
+            <input type="email" placeholder="Email" id="si-email"/><br />
+            Password: <br />
+            <input type="password" placeholder="Password" id="si-password"/><br />
+            <button type="submit" id="sign-in-btn">Login</button>
+            <p id="alert-msg"></p>
+            <p id=""><a id="signup-btn">SignUp</a></p>
+        </form>
+    </template>
+
+    <template id='signup'>
+        <form>
+        <h2>Signup Panel</h2>
+            Name: <br />
+            <input type="text" placeholder="Name" id='su-name'/><br />
+            Email: <br />
+            <input type="email" placeholder="Email" id='su-email'/><br />
+            Password: <br />
+            <input type="password" placeholder="*******" id='su-password'/><br />
+            Repeat Password: <br />
+            <input type="password" placeholder="*******" id="su-rep-password"/><br />
+
+            <button type="submit" id="sign-up-btn">Sign Up</button>
+            <p id="alert-msg"></p>
+            <p><a id="login-btn">Login</a></p>
+        </form>
+    </template>
+
+    <template id='home-page'>
+        <form>
+            <h2 id='userName'></h2>
+            <h2>Welcome to your profile page</h2>
+            <button type="submit" id='logout-btn'>Log out</button>
+            <!-- <button type="submit" id='update-details-btn'>Update Profile Details</button> -->
+        </form>
+    </template>
+
+    <template>
+        <h2>Home Screen</h2>
+        <button>Logout</button>
+    </template>
+
+
+    <div id='signup-panel'></div>
+    <div id='login-panel'></div>
+    <div id='home'></div>
+</head>
+<body>
+    
+</body>
+</html>
