@@ -22,7 +22,7 @@
     "babel-loader": "^8.1.0",
     "commonjs": "0.0.1",
     "firebase": "^4.8.0",
-    "firebase-admin": "^9.0.0",
+    "firebase-admin": "^11.4.1",
     "lite-server": "^2.5.4",
     "nodemon": "^2.0.4",
     "source-map-loader": "^1.0.1",
